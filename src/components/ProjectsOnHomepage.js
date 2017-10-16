@@ -13,7 +13,7 @@ class Projects extends Component {
     }
       
     componentDidMount() {
-        axios('http://localhost:3000/projects', {
+        axios('https://mysterious-scrubland-59456.herokuapp.com/projects', {
           method: 'GET',
         })
         .then(res => {

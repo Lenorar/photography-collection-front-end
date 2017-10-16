@@ -47,7 +47,7 @@ class ProjectAddForm extends Component {
 
     handleFormSubmit(event) {        
         event.preventDefault();
-        axios('http://localhost:3000/projects', {
+        axios('https://mysterious-scrubland-59456.herokuapp.com/projects', {
             method: 'POST', 
             data: {
                 title: this.state.title,

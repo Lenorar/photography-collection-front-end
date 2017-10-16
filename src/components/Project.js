@@ -23,7 +23,7 @@ class Project extends Component {
     
     componentDidMount() {
         let id = this.props.match.params.id
-        axios(`http://localhost:3000/projects/${id}`, {
+        axios(`https://mysterious-scrubland-59456.herokuapp.com/projects/${id}`, {
             method: 'GET',
         })
         .then(res => {
@@ -54,7 +54,7 @@ class Project extends Component {
 
     deleteProject(){
         let id = this.props.match.params.id
-        axios.delete(`http://localhost:3000/projects/${id}`)
+        axios.delete(`https://mysterious-scrubland-59456.herokuapp.com/projects/${id}`)
             .then(res => {
                 console.log(res.data)
                 this.setState({

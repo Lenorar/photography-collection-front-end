@@ -17,7 +17,7 @@ class ProjectEditForm extends Component {
     }
 
     componentDidMount(){
-        axios.get(`http://localhost:3000/projects/${this.props.match.params.id}`)
+        axios.get(`https://mysterious-scrubland-59456.herokuapp.com/projects/${this.props.match.params.id}`)
         .then((res) => {
             this.setState({
                 id: res.data.id,

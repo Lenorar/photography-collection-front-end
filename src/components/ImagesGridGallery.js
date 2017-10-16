@@ -14,7 +14,7 @@ class ImagesGrid extends Component {
     componentDidMount(){
         console.log(this.props.id)
         let id = this.props.id
-        axios(`http://localhost:3000/images/${id}`, {
+        axios(`https://mysterious-scrubland-59456.herokuapp.com/images/${id}`, {
             method: 'GET',
         })
         .then(res=>{
@@ -26,7 +26,7 @@ class ImagesGrid extends Component {
 
     reRender(){
         let id = this.props.id
-        axios(`http://localhost:3000/images/${id}`, {
+        axios(`https://mysterious-scrubland-59456.herokuapp.com/images/${id}`, {
             method: 'GET',
         })
         .then(res=>{
@@ -38,7 +38,7 @@ class ImagesGrid extends Component {
 
     deleteImage(imageId){
         let id = imageId
-        axios.delete(`http://localhost:3000/images/${id}`, {
+        axios.delete(`https://mysterious-scrubland-59456.herokuapp.com/images/${id}`, {
         })
         .then(res => {
             this.reRender();

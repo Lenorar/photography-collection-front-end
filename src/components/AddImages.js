@@ -69,7 +69,7 @@ class AddImages extends Component {
         e.preventDefault()
         let projectId=this.props.match.params.id
         let imageUrls=this.state.images.map(image => image.secure_url)
-        axios('http://localhost:3000/images', {
+        axios('https://mysterious-scrubland-59456.herokuapp.com/images', {
             method: 'POST', 
             data: {
                 image_urls: imageUrls,

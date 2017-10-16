@@ -18,7 +18,7 @@ class Images extends Component {
     componentDidMount(){
         console.log(this.props.id)
         let id = this.props.id
-        axios(`http://localhost:3000/images/${id}`, {
+        axios(`https://mysterious-scrubland-59456.herokuapp.com/images/${id}`, {
             method: 'GET',
         })
         .then(res=>{
