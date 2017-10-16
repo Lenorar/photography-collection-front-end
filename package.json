@@ -1,0 +1,27 @@
+{
+  "name": "chloe_portfolio_front_end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "flexbox-react": "^4.4.0",
+    "nuka-carousel": "^3.0.0",
+    "react": "^16.0.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.0.0",
+    "react-dropzone": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "react-scroll": "^1.5.5",
+    "react-select": "^1.0.0-rc.10",
+    "sha1": "^1.1.1",
+    "slick-carousel": "^1.8.1",
+    "superagent": "^3.6.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

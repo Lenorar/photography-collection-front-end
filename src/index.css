@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+
+
+.intro-page {
+  background-color: #FFC700;
+  height: 100vh;
+  margin: auto;
+}
+
+
+.intro-page h1 {
+  color: white;
+  text-align: center;
+  padding-top: 400px;
+}
+
+
+
+.intro-page h1:hover {
+  color:pink;
+}
+
+
+
