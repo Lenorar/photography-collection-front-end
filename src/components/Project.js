@@ -78,7 +78,7 @@ class Project extends Component {
                 <p> {this.state.description}</p>
                 <button className=''><Link to={editProjectPath}>edit</Link></button>
                 <button className=''><Link to={addImagesPath}>add images</Link></button>
-                <button onClick={this.deleteProject}>deletes</button>
+                <button onClick={this.deleteProject}>delete</button>
                 {this.state.fireRedirect
                 ? <Redirect push to={projectsPath} />
                 : ''}
