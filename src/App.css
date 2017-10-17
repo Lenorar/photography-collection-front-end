@@ -1,3 +1,4 @@
+
 .website-nav{
   overflow: hidden;
   position: fixed;
@@ -503,8 +504,10 @@ button.submit {
   }
   }
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 1024px){
+
     .p-header {
       padding-left: 35vw;
     }
   }
+  
