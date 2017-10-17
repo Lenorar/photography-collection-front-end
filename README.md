@@ -8,7 +8,6 @@ Photography Collection is a CRUD App built with React and Rails for users to bro
 
 - Ruby on Rails
 - React
-- Configuration
 - database creation
 - axios
 - superagent
