@@ -327,6 +327,9 @@ label{
 
 input{
   margin: 10px;
+  outline: 0;
+  border-style: solid 2px #FFC700;
+  
 }
 
 button.submit {
